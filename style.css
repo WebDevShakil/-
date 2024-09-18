@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: ShohidAbuSayed;
+    font-weight: 500;
 }
 @font-face {
     font-family:AlinurShishir ;
@@ -116,6 +118,7 @@ main{
     margin-right: 10px;
     flex: 1;
     
+    
 }
 .mid-news-section{
     position: relative;
@@ -146,8 +149,8 @@ main{
     background-color: rgb(199 197 197);
     height: 100%;
     position: absolute;
-    top: 0;
-    right: -5px;
+    top: 10px;
+    right: -10px;
     margin: o 5px;
 }
 .left-news-section div{
@@ -165,4 +168,40 @@ hr{
 }
 .mid-news-section img{
     width: 100%;
+}
+h1,h2,h3,h4{
+    font-family: AlinurShishir;
+}
+.footer-section{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.footer-side .footer-logo{
+    text-align: left;
+}
+.footer-side h3,h2{
+    margin-bottom: 20px;
+}
+.footer-side{
+    display: flex;
+    justify-content: space-between;
+    width: 1400px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    padding: 30px 0;
+
+}
+.footer-side ul li{
+    list-style: none;
+}
+.footer-side li a{
+    text-decoration: none;
+}
+footer{
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    background-color: rgb(224, 224, 224);
 }
